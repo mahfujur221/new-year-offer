@@ -206,7 +206,35 @@ body > div {
   height: 1163px;
   width: 1320px;
 
-  
+}
+
+.card7-discount{
+font-size: 24px;
+  font-weight: 400;
+  color: red;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
+
+.card7-heading{
+  font-size: 48px;
+  font-weight: 600;
+  color: black;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+
+}
+
+.card7-para{
+ font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  padding-bottom: 10px;
 }
 
 .card7-items{
@@ -214,7 +242,6 @@ body > div {
   justify-content: center;
   align-items: center;
   align-content: center;
-  gap: 50px;
-  margin-top: 50px;
-  
+  white-space: 1git add .
+  0px;
 }
