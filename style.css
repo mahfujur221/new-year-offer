@@ -200,3 +200,21 @@ body > div {
   cursor: pointer;
   border-radius: 4px;
 }
+
+.card7{
+  margin-top: 100px;
+  height: 1163px;
+  width: 1320px;
+
+  
+}
+
+.card7-items{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  
+}
