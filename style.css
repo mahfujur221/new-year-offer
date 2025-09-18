@@ -1,0 +1,211 @@
+.merriweather-font {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* 
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+*/
+body > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.card1 {
+  margin-top: 100px;
+  height: 600px;
+  width: 1320px;
+  background-image: url(images/Banner\ Image.png);
+  color: white;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card1-content {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  color: white;
+  border-radius: 8px 8px 8px 8px;
+  height: 600px;
+  width: 1320px;
+  align-content: center;
+  text-align: center;
+}
+
+.card1-greet {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.card1-greeting {
+  font-size: 72px;
+  font-weight: 800;
+}
+
+.card2 {
+  margin-top: 100px;
+  height: 806px;
+  width: 803px;
+  background-image: url(images/New\ Year\ Photo.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.card2-discount {
+  font-size: 88px;
+  font-weight: 800;
+  color: red;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  align-content: center;
+  text-align: center;
+}
+
+.card2-offer {
+  font-size: 24px;
+  font-weight: 400;
+  color: red;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  align-content: center;
+  text-align: center;
+}
+
+.card2-offers {
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+  padding-top: 5px;
+  margin-top: 5px;
+  align-content: center;
+  text-align: center;
+}
+
+.card3 {
+  margin-top: 100px;
+  height: 600px;
+  width: 1320px;
+  background-image: url(images/Vectorrr.png);
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card3-content {
+  margin-bottom: 100px;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  color: white;
+  border-radius: 8px 8px 8px 8px;
+  height: 600px;
+  width: 1320px;
+  align-content: center;
+  text-align: center;
+}
+
+.card3-greet {
+  font-size: 64px;
+  font-weight: 700;
+  padding-top: 120px;
+  margin: 50px auto 30px 70px;
+}
+
+.card3-description {
+  font-size: 18px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+.card3-button {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 70px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.card4 {
+  background: linear-gradient(
+    to bottom,
+    rgb(241, 218, 218) 0%,
+    /* red fully opaque at top */ rgb(245, 216, 216) 10%,
+    /* keep it solid until 10% */ rgba(255, 0, 0, 0) 100%
+      /* fade to transparent at bottom */
+  );
+  color: white;
+  border-radius: 8px 8px 8px 8px;
+  height: 482px;
+  width: 1320px;
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.card4-start {
+  font-size: 32px;
+  font-weight: 600;
+  color: red;
+  padding-top: 100px;
+  margin-bottom: 10px;
+  align-content: center;
+  text-align: center;
+}
+
+.card4-end {
+  font-size: 32px;
+  font-weight: 600;
+  color: black;
+  padding-top: 100px;
+  margin-bottom: 10px;
+  align-content: center;
+  text-align: center;
+}
+
+.card4-btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
