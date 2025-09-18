@@ -5,15 +5,6 @@
   font-variation-settings: "wdth" 100;
 }
 
-/* 
-div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
-*/
 body > div {
   display: flex;
   flex-direction: column;
@@ -161,7 +152,7 @@ body > div {
 .card4 {
   background: linear-gradient(
     to bottom,
-    rgb(241, 218, 218) 0%,
+    rgb(243, 228, 228) 0%,
     /* red fully opaque at top */ rgb(245, 216, 216) 10%,
     /* keep it solid until 10% */ rgba(255, 0, 0, 0) 100%
       /* fade to transparent at bottom */
